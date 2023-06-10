@@ -63,7 +63,7 @@ On a modern Linux system just a few steps are needed to get the daemon working.
 The following example shows the installation under Debian/Raspbian below the `/opt` directory:
 
 ```shell
-sudo apt install git python3 python3-pip bluetooth bluez
+sudo apt install git python3 python3-pip bluetooth bluez libglib2.0-dev
 
 git clone https://github.com/ThomDietrich/miflora-mqtt-daemon.git /opt/miflora-mqtt-daemon
 
